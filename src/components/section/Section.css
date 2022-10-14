@@ -1,0 +1,28 @@
+.section{
+    padding-bottom: 10rem;
+}
+
+.section__header{
+    padding: 4rem;
+    justify-content: center;
+}
+
+.section__h2{
+    font-size: 10rem;
+    font-family: 'Lateef', cursive;
+    font-weight: 400;
+    color: #413D45;
+}
+
+.section__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.section__p{
+    font-family: 'Lateef', cursive;
+    color: #413D45;
+    font-size: 5rem;
+}

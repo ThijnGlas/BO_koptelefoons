@@ -1,0 +1,57 @@
+.navigation{
+    width: 100%;
+    padding: 4rem;
+    background: #FFFFFF;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__logo{
+    font-size: 8rem;
+    color: #CFD2CF;
+}
+
+@media screen and (max-width:1000px){
+    .navigation__logo{
+        font-size: 4rem;
+    }
+    
+}
+
+.navigation__ul{
+    display: flex;
+    font-size: 100%;
+    align-items: center;
+    gap: 30rem;
+}
+
+.navigation__li{
+    list-style: none;
+    font-size: 3rem;
+}
+
+.login{
+    font-size: 2.5rem;
+    background: #084FFF;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+.navigation__logo{
+    cursor: pointer;
+}
+
+.navigation__li:hover{
+    cursor:pointer;
+
+}
+
+.login:hover{
+    background: hsl(223, 100%, 32%);
+    cursor: pointer;
+}
