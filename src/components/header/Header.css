@@ -1,15 +1,17 @@
 .header{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
-    background: linear-gradient(to bottom right, hsl(120, 3%, 82%), hsl(120, 3%, 72%)), url("/public/img/headerphone.jpg");
-    background-position: bottom;
-    background-size: contain;
+    background: linear-gradient(to bottom right, rgba(208, 210, 208, 0.3), rgba(181, 186, 181, 0.2)), url("../../img/headerphone.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     color: #413D45;
     text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 180px;
+    padding-right:30rem;
 }
 
 .header__h1{
@@ -30,8 +32,7 @@
     color: #FFFFFF;
     border: none;
     padding: 1rem 4rem;
-    text-transform: uppercase;
-    border-radius: 0.5rem;
+    border-radius: 3rem;
     transition: 0.2s;
 }
 

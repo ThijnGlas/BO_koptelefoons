@@ -23,7 +23,7 @@
     display: flex;
     font-size: 100%;
     align-items: center;
-    gap: 30rem;
+    gap: 20rem;
 }
 
 .navigation__li{
@@ -37,8 +37,7 @@
     color: #FFFFFF;
     border: none;
     padding: 1rem 4rem;
-    text-transform: uppercase;
-    border-radius: 0.5rem;
+    border-radius: 3rem;
     transition: 0.2s;
 }
 

@@ -3,6 +3,8 @@ import Header from "../components/header/Header"
 import Navigation from "../components/navigation/Navigation";
 import Section from "../components/section/Section";
 import VerticalCard from "../components/verticalCard/VerticalCard";
+import Image from "../components/Image/Image";
+import zwartektIMG from "../img/zwartekt.jpg";
 
 const HomePage = () => {
     return (
@@ -11,16 +13,18 @@ const HomePage = () => {
             <Header
                 bigTitle="koptelefoons"
                 smallTitle="van Thijn"
-                buttonText="Login"
+                buttonText="Kijk verder"
             />
-            <Section headerTitle="Over Callizone" text="gebruik altijd een koptelefoon voor de beste ervaring" />
-            <Section headerTitle="Onze features">
-                <Card image="gegrildekip.jpg" cardText="koop bij ons de lekkerste gegrilde kip!" />
-                <Card image="huisgemaakt.jpg" cardText="wij maken ook de lekkerste huisgemaakte eten!" />
-                <Card image="huisgemaakt2.0.jpg" cardText="het verste vlees voor de juiste prijs!" />
-                <Card image="vleugels.jpg" cardText="kom ook je kippenvleugeltjes bij ons halen!" />
+            <Section headerTitle="Over Callizone" text="gebruik altijd een koptelefoon voor de beste ervaring">
+            <Image image={zwartektIMG} />
             </Section>
-            <VerticalCard verticalCardImage="familiekoptelefoon.jpg" />
+            <Section headerTitle="Onze features">
+                <Card  cardText="koop bij ons de lekkerste gegrilde kip!" />
+                <Card  cardText="wij maken ook de lekkerste huisgemaakte eten!" />
+                <Card  cardText="het verste vlees voor de juiste prijs!" />
+                <Card  cardText="kom ook je kippenvleugeltjes bij ons halen!" />
+            </Section>
+            <VerticalCard image="familiekoptelefoon.jpg" />
         </>
     )
 }
