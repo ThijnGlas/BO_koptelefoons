@@ -1,7 +1,7 @@
 import "./VerticalCard.css";
 
 const VerticalCard = (props) => {
-    let VerticalCardImage = <img src={"/img/" + props.image} alt="" />
+    let VerticalCardImage = <img src={"/img/" + props.npimage} alt="" />
     if(props.VerticalCardimage === undefined){
         VerticalCardImage = <img src={"/img/muziekkoptelefoon.jpg"} alt="muziekkoptelefoon" />;
     }

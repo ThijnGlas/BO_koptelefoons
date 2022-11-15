@@ -2,7 +2,17 @@ import "./Image.css";
 
 const Image = (props) => {
     return(
-        <img src={props.image} alt={props.imageAlt} />
+        <section class="img__section">
+            <div className="img__section__div">
+            <header class="img__section__header">
+                <h2 class="img__section__h2">{props.headerTitle ||"placeholder title"}</h2>
+                <p className="img__section__p">{props.text}</p>
+            </header>
+            <div class="img__section__wrapper">
+                <img src={props.image} alt={props.imageAlt} />
+            </div>
+            </div>
+        </section>
     )
 }
 

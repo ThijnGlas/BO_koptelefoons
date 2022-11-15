@@ -37,6 +37,6 @@
 }
 
 .header__button:hover{
-    background: hsl(223, 100%, 32%);
+    background: hsl(223, 100%, 42%);
     cursor: pointer;
 }

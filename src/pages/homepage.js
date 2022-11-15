@@ -5,6 +5,10 @@ import Section from "../components/section/Section";
 import VerticalCard from "../components/verticalCard/VerticalCard";
 import Image from "../components/Image/Image";
 import zwartektIMG from "../img/zwartekt.jpg";
+import verschillendeaudioIMG from "../img/verschillendeaudio.jpg"
+import bestekwaliteitIMG from "../img/bestekwaliteit.jpg"
+import prijskwaliteitIMG from "../img/prijskwaliteit.jpg"
+import kabelIMG from "../img/kabel.jpg"
 
 const HomePage = () => {
     return (
@@ -15,14 +19,12 @@ const HomePage = () => {
                 smallTitle="van Thijn"
                 buttonText="Kijk verder"
             />
-            <Section headerTitle="Over Callizone" text="gebruik altijd een koptelefoon voor de beste ervaring">
-            <Image image={zwartektIMG} />
-            </Section>
+            <Image headerTitle="Over Callizone" text="gebruik altijd een koptelefoon voor de beste ervaring" image={zwartektIMG} />
             <Section headerTitle="Onze features">
-                <Card  cardText="koop bij ons de lekkerste gegrilde kip!" />
-                <Card  cardText="wij maken ook de lekkerste huisgemaakte eten!" />
-                <Card  cardText="het verste vlees voor de juiste prijs!" />
-                <Card  cardText="kom ook je kippenvleugeltjes bij ons halen!" />
+                <Card  cardText="verschillende audio systemen" image={verschillendeaudioIMG} extraclass="verschillende"/>
+                <Card  cardText="meest betrouwbare koptelefoons" image={bestekwaliteitIMG} extraclass="beste" />
+                <Card  cardText="beste prijs voor kwaliteit" image={prijskwaliteitIMG} extraclass="prijskwaliteit" />
+                <Card  cardText="5 tips tegen kabelbreuk" image={kabelIMG}  extraclass="kabel"/>
             </Section>
             <VerticalCard image="familiekoptelefoon.jpg" />
         </>

@@ -9,7 +9,7 @@
 
 .navigation__logo{
     font-size: 8rem;
-    color: #CFD2CF;
+    color: #FF7E1D;
 }
 
 @media screen and (max-width:1000px){
@@ -29,9 +29,10 @@
 .navigation__li{
     list-style: none;
     font-size: 3rem;
+    transition: 0.5s;
 }
 
-.login{
+.navigation__login{
     font-size: 2.5rem;
     background: #084FFF;
     color: #FFFFFF;
@@ -41,7 +42,68 @@
     transition: 0.2s;
 }
 
-.navigation__logo{
+.navigation__login:hover{
+    background: hsl(223, 100%, 42%);
+    cursor: pointer;
+}
+
+.navigation__over{ 
+    display:inline-block; 
+    margin:0;
+}
+
+.navigation__over:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #019fb6;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.navigation__over:hover:after { transform: scaleX(1); }
+
+.navigation__features{ 
+    display:inline-block; 
+    margin:0;
+}
+
+.navigation__features:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #FF7E1D; 
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.navigation__features:hover:after { transform: scaleX(1); }
+
+.navigation__prijs{ 
+    display:inline-block; 
+    margin:0;
+}
+
+.navigation__prijs:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #A273C6;
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.navigation__prijs:hover:after { transform: scaleX(1); }
+
+.navigation__contact{ 
+    display:inline-block; 
+    margin:0;
+}
+
+.navigation__contact:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #033FFF;
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.navigation__contact:hover:after { transform: scaleX(1); }
+
+.navigation__logo:hover{
     cursor: pointer;
 }
 

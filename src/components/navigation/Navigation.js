@@ -6,11 +6,11 @@ const Navigation = () => {
             <i class="fa-solid fa-headphones"></i>
             </figure>
             <ul className="navigation__ul">
-                <li className="navigation__li">Over</li>
-                <li className="navigation__li">Features</li>
-                <li className="navigation__li">Prijs</li>
-                <li className="navigation__li">Contact</li>
-                <li className="navigation__li login">Login</li>
+                <li className="navigation__li navigation__over">Over</li>
+                <li className="navigation__li navigation__features">Features</li>
+                <li className="navigation__li navigation__prijs">Prijs</li>
+                <li className="navigation__li navigation__contact">Contact</li>
+                <li className="navigation__li navigation__login">Login</li>
             </ul>
         </nav>
     )
