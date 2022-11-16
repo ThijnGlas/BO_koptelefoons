@@ -4,6 +4,7 @@
 
 .section__header{
     padding: 4rem;
+    margin-left: 15rem;
     justify-content: center;
 }
 
@@ -17,7 +18,7 @@
 .section__wrapper{
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 6rem;
     flex-wrap: wrap;
 }
 
@@ -26,3 +27,30 @@
     color: #413D45;
     font-size: 5rem;
 }
+
+.section__blob{
+    position: absolute;
+    z-index: -1;
+}
+
+.blob1{
+    width: 80rem;
+    left: 30rem;
+    top: 20rem;
+}
+.blob2{
+    width: 60rem;
+    left: 20rem;
+    top: 25rem;
+}
+.blob3{
+    width: 100rem;
+    left: 25rem;
+    top: 50rem;
+}
+
+@media screen and (max-width:1850px) {
+    .section__header{
+        margin-left: 0;
+    }
+   }
