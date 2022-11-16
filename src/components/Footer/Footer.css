@@ -1,0 +1,29 @@
+.footer__container{
+    min-height: 7rem;
+}
+
+.footer {
+    min-height: 7rem;
+    min-width: 100%;
+    color: #413D45;
+    background: #F5F2ED;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    font-size: 2rem;
+
+}
+
+.footer__a{
+    color: #413D45;
+}
+
+.info {
+    text-decoration: none;
+}
+
+.socials {
+    font-size: 5rem;
+    display: flex;
+    text-decoration: none;
+}

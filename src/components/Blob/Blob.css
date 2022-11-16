@@ -4,9 +4,10 @@
 }
 
 .contact__blob{
-    width: 120rem;
-    top: 410rem;
-    left: 35rem;
+    width: 80rem;
+    top: 400rem;
+    left: 30rem;
+    transform: rotate(30deg);
 }
 
 .blob__callizone{

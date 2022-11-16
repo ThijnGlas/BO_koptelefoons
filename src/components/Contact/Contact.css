@@ -17,6 +17,7 @@ form { max-width:60rem; margin:5rem auto; }
   line-height: 22px;
   background-color: transparent;
   border:2px solid #FF7E1D;
+  background: #F5F2ED;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;

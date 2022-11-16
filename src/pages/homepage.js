@@ -6,6 +6,7 @@ import VerticalCard from "../components/verticalCard/VerticalCard";
 import Image from "../components/Image/Image";
 import Contact from "../components/Contact/Contact";
 import Blob from "../components/Blob/Blob"
+import Footer from "../components/Footer/Footer"
 import zwartektIMG from "../img/zwartekt.jpg";
 import verschillendeaudioIMG from "../img/verschillendeaudio.jpg"
 import bestekwaliteitIMG from "../img/bestekwaliteit.jpg"
@@ -40,6 +41,7 @@ const HomePage = () => {
                 <VerticalCard h2Text="gaming abbonement" prijs="€19.99 per maand" cardText="Dit abbonement is voor de gamers, deze koptelefoons hebben een ingebouwde microfoon en hebben een goede geluidsqualiteit. Deze koptelefoons zijn aanbevolen door pro gamers over de hele wereld." image={gamingkoptIMG} />
             </Section>
             <Contact customId="Contact"/>
+            <Footer />
         </>
     )
 }
