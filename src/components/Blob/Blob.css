@@ -1,0 +1,39 @@
+.blob{
+    position: absolute;
+    z-index: -1;
+}
+
+.contact__blob{
+    width: 80rem;
+    top: 400rem;
+    left: 30rem;
+    transform: rotate(30deg);
+}
+
+.blob__callizone{
+    width: 95rem;
+    top: 108rem;
+    left: 2rem;
+    transform: rotate(15deg);
+}
+
+.blob__features1{
+    width: 100rem;
+    transform: rotate(15deg);
+    top: 180rem;
+    left: -15rem;
+}
+
+
+.blob__features2{
+    width: 80rem;
+    top: 200rem;
+    left: 105rem;
+}
+
+.blob__features3{
+    width: 90rem;
+    top: 280rem;
+    left: 0rem;
+    transform: rotate(-30deg);
+}
