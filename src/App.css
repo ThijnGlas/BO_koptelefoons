@@ -1,7 +1,16 @@
-*{
+*, *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a:link, a:visited,a:hover, a:active{
+    text-decoration: none;
+    color: #413D45;
+}
+
+.login{
+    color: #FFFFFF;
 }
 
 html{
@@ -12,4 +21,6 @@ body{
     font-family: 'Lato', sans-serif;
     background: #FFFFFF;
     font-size: 1.6rem;
+    color: #413D45;
 }
+

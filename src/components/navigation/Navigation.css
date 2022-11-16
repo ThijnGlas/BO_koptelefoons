@@ -30,6 +30,8 @@
     list-style: none;
     font-size: 3rem;
     transition: 0.5s;
+    color: #413D45;
+
 }
 
 .navigation__login{
@@ -40,6 +42,10 @@
     padding: 1rem 4rem;
     border-radius: 3rem;
     transition: 0.2s;
+}
+
+.login{
+    color: #FFFFFF;
 }
 
 .navigation__login:hover{

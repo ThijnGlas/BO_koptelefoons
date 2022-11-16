@@ -10,14 +10,6 @@
     display: flex;
 }
 
-.blob{
-        position: absolute;
-        z-index: -1;
-        width: 95rem;
-        top: 110rem;
-        left: 2rem;
-}
-
 .img__section__header{
     padding: 4rem;
 }
