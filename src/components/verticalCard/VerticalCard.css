@@ -27,10 +27,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2px;
     gap: 2rem;
     flex-direction: column;
 }
 
 .verticalCard__p--dik{
     font-weight: 200;
+}
+
+@media screen and (max-width:35rem) {
+    .verticalCard__section{
+       display: block;
+    }
 }
