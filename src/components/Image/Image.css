@@ -4,6 +4,11 @@
     padding-top: 5rem;
 }
 
+.img__section--img{
+    border-radius: 2rem;
+    box-shadow: 0 0 0.5rem 0.1rem hsl(0, 0%, 40%);
+}
+
 .img__section__div{
     padding-top: 2rem;
     padding-bottom: 10rem;
@@ -31,4 +36,11 @@
     font-family: 'Lateef', cursive;
     color: #413D45;
     font-size: 5rem;
+}
+
+@media screen and (max-width:76rem) {
+    .img__section__div{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -2,7 +2,6 @@
     width: 100%;
     padding: 4rem;
     background: #FFFFFF;
-    /* position: fixed;*/
     display: flex;
     justify-content: space-between;
 }
@@ -121,4 +120,16 @@
 .login:hover{
     background: hsl(223, 100%, 32%);
     cursor: pointer;
+}
+
+@media screen and (max-width:1450px) {
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navigation__ul{
+        flex-direction: column;
+        gap: 2rem;
+    }
 }

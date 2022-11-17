@@ -39,3 +39,28 @@
     background: hsl(223, 100%, 42%);
     cursor: pointer;
 }
+
+@media screen and (max-width:1400px) {
+    .header{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    }
+    .header__h1{
+        font-size: 10rem;
+    }
+    
+    .header__h2{
+        font-size: 5rem;
+    }
+    }
+
+@media screen and (max-width:500px) {
+    .header__h1{
+        font-size: 8rem;
+    }
+    
+    .header__h2{
+        font-size: 4rem;
+    }
+}

@@ -10,7 +10,7 @@ const Footer = () => {
                 <a className="footer__a" href="mailto: thijnglas@gmail.com">thijnglas@gmail.com</a>
             </div>
             <div className="socials">
-                <a className="footer__a" href="https://www.instagram.com/explore/tags/headsets/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a className="footer__a" href="https://www.instagram.com/explore/tags/headsets/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
             </div>
         </footer>
         </div>
